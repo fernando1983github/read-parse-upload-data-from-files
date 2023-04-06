@@ -19,7 +19,6 @@
 <ownDataTypeParameters>,11,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
 <Column name="segment" id="DEF3D962-AB67-5A81-7D94-6BE62034B285">
 <createdBy>SESA378870</createdBy>
