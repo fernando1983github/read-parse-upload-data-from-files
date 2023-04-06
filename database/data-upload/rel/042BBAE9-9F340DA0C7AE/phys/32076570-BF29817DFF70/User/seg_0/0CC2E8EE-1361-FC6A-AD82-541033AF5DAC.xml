@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="dataupload" directorySegmentName="seg_0" id="0CC2E8EE-1361-FC6A-AD82-541033AF5DAC">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:43:24 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+<defTableSpace>22022BFA-8A81-D454-1D0C-FA9A1C8B0259</defTableSpace>
+<identifier>059D616992A54ECB908BDDB83A9FD4AA72FFB9FE9D4ABA8F16</identifier>
+<privileges>CONNECT, CREATE ANY PROCEDURE, CREATE ANY TRIGGER, CREATE SEQUENCE, CREATE SESSION, CREATE SYNONYM, CREATE TABLE, CREATE VIEW, UNLIMITED TABLESPACE</privileges>
+<temptableSpace>C69A36A4-5E06-0FFA-9A3F-DB44AB88B053</temptableSpace>
+</UserOraclev10g>

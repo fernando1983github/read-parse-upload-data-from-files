@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TemporaryTablespaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TemporaryTablespaceOraclev10g" name="dataupload_tablespace_tmp" directorySegmentName="seg_0" id="C69A36A4-5E06-0FFA-9A3F-DB44AB88B053">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:41:25 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="dataupload_tablespace_tmp" id="E86C748F-7759-3212-110D-8BF015D325F5">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:42:57 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+<fileName>dataupload_tablespace_tmp.dbf</fileName>
+<measureUnit>M</measureUnit>
+<size>50</size>
+</DataFile>
+</dataFiles>
+</TemporaryTablespaceOraclev10g>

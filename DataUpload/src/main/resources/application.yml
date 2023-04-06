@@ -1,0 +1,36 @@
+dev:
+  pathTemplates: /respaldos/app-resources/Volumetria/DEVtemplates/
+  hibernate:
+    dialect: org.hibernate.dialect.Oracle12cDialect
+    connection:
+      url: jdbc:oracle:thin:@localhost:1521:xe
+      username: dataupload
+      password: kingslayer
+      driver_class: oracle.jdbc.OracleDriver
+      release_mode: on_close
+    show_sql: false
+    format_sql: true
+    hbm2ddl:
+      auto: none
+
+qa:
+  pathTemplates: /respaldos/app-resources/Volumetria/QAtemplates/
+  hibernate:
+    dialect: org.hibernate.dialect.Oracle10gDialect
+    connection:
+      release_mode: on_close
+    show_sql: false
+    format_sql: true
+    hbm2ddl:
+      auto: none
+
+prod:
+  pathTemplates: /respaldos/app-resources/Volumetria/PRODtemplates/
+  hibernate:
+    dialect: org.hibernate.dialect.Oracle10gDialect
+    connection:
+      release_mode: on_close
+    show_sql: false
+    format_sql: true
+    hbm2ddl:
+      auto: none

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Finances" directorySegmentName="seg_0" id="7C77C964-8CFE-9396-4166-C07DD575F621">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>22022BFA-8A81-D454-1D0C-FA9A1C8B0259</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<user>0CC2E8EE-1361-FC6A-AD82-541033AF5DAC</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="country" id="05CA17E8-33A0-F034-1E6B-7CC67ED6987F">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sales" id="33AD2D0D-9C28-0C3F-5290-B84B5EAAB9DD">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="year" id="3D55EAAC-A09D-2385-C278-DC758B35E0E6">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="month_number" id="507EE428-D59D-2142-B1F2-EF64D72B2A8A">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="discounts" id="56423B8E-B5A6-ABA7-4D54-3195FF886AB2">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="units_sold" id="5E00F23C-EDC1-6194-AB88-0836ECDAB8DB">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="manufacturing_price" id="5E643D13-3A4A-5EF3-D3DC-A6A244E41321">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cogs" id="625DB69F-4A23-F61D-38D0-50BE5F346F29">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="product" id="67C646BD-00BB-7E21-2BD5-B767BEDF94F7">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gross_sales" id="71C12166-9C81-DE9C-4700-6FDBCED9300F">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="profit" id="7F6DA536-5DEF-76FC-FEC8-2E1FCDDBAEB4">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="date" id="BEC6B914-F68E-19C7-B734-63CC955250F5">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="C70E9D5B-060E-0BD2-19EB-835B9497C840">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="discount_band" id="CE710F2C-100E-2B42-D394-54D151A0BB35">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sale_price" id="D8F209AC-A534-3A61-0BA9-A24D7BE76329">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="segment" id="DEF3D962-AB67-5A81-7D94-6BE62034B285">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="month_name" id="EACDB4D4-3035-061A-7E3E-3FD033666357">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Finances_PK" id="22FC94F6-DD02-BD0B-4686-485809F53ABA">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

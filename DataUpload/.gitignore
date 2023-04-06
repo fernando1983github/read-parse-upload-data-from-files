@@ -1,0 +1,18 @@
+# Eclipse
+bin/
+.metadata
+.settings/
+.classpath
+.factorypath
+.project
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Visual Studio Code
+.vscode/*
+ 
+# Maven
+target/
