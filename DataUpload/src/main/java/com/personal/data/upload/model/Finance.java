@@ -224,5 +224,4 @@ public class Finance extends Auditable<String> implements Serializable {
 	public void setRecordDate(LocalDateTime recordDate) {
 		this.recordDate = recordDate;
 	}
-
 }

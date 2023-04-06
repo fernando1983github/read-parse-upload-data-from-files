@@ -1,7 +1,6 @@
 package com.personal.data.upload.dto;
 
 import java.math.BigDecimal;
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.Date;
 

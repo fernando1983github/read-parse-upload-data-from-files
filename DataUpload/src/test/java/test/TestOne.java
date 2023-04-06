@@ -28,9 +28,6 @@ public class TestOne {
 	
 	ItemsRepository excelRepo;
 	
-//	@Autowired
-//	FinanceService financeService;
-	
 	@Before
 	public void before() throws Exception {
 		String pathfile = "C:\\Pruebas\\Financial Sample.xlsx";
@@ -43,7 +40,7 @@ public class TestOne {
 	}
 	
 	@Test
-	public void dataFromFileMustBeRead() throws Exception {
+	public void dataFromFileMustBePersisted() throws Exception {
 		loadRepoBo.loadRepo(excelRepo);
 	}
 	

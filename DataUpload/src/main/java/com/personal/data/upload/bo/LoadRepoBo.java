@@ -20,5 +20,4 @@ public class LoadRepoBo {
 		List<Finance> fs = DtoUtils.mapList(financesDto, Finance.class);
 		financeService.save(fs);
 	}
-
 }
