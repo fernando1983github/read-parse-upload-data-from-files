@@ -12,6 +12,11 @@
 <rejectLimit></rejectLimit>
 <storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="status" id="0421E663-4F4F-071A-40D4-6DC233C3C39B">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:54:07 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="country" id="05CA17E8-33A0-F034-1E6B-7CC67ED6987F">
 <createdBy>SESA378870</createdBy>
 <createdTime>2023-04-06 00:39:09 UTC</createdTime>
@@ -37,6 +42,11 @@
 <createdTime>2023-04-06 00:39:09 UTC</createdTime>
 <ownerDesignName>data-upload</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="created_at" id="5837686D-8B2A-D04E-2AC6-50334E630636">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:53:51 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="units_sold" id="5E00F23C-EDC1-6194-AB88-0836ECDAB8DB">
 <createdBy>SESA378870</createdBy>
 <createdTime>2023-04-06 00:39:09 UTC</createdTime>
@@ -60,6 +70,11 @@
 <ColumnProxy name="gross_sales" id="71C12166-9C81-DE9C-4700-6FDBCED9300F">
 <createdBy>SESA378870</createdBy>
 <createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="updated_at" id="773E3638-5B3E-2B66-08E0-F3273B1306CF">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 00:53:51 UTC</createdTime>
 <ownerDesignName>data-upload</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="profit" id="7F6DA536-5DEF-76FC-FEC8-2E1FCDDBAEB4">
@@ -95,6 +110,11 @@
 <ColumnProxy name="month_name" id="EACDB4D4-3035-061A-7E3E-3FD033666357">
 <createdBy>SESA378870</createdBy>
 <createdTime>2023-04-06 00:39:09 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="record_date" id="FC857C56-8C43-5A13-75F9-36FA77E9355E">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-06 05:55:39 UTC</createdTime>
 <ownerDesignName>data-upload</ownerDesignName>
 </ColumnProxy>
 </columnProxies>

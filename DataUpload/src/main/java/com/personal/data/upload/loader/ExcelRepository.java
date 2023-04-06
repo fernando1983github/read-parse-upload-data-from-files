@@ -132,11 +132,7 @@ public class ExcelRepository implements ItemsRepository {
 	}
 	
 	private List<FinanceDto> convert(List<ItemExcel> itemsExcel) throws Exception {
-		List<FinanceDto> financeDto = new ArrayList<>();
-		for(ItemExcel itemExcel : itemsExcel) {
-			FinanceDto f = DtoUtils.map(itemExcel, FinanceDto.class);
-			financeDto.add(f);
-		}
+		List<FinanceDto> financeDto = DtoUtils.mapList(itemsExcel, FinanceDto.class);
 		return financeDto;
 	}
 }

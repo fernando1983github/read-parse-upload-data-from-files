@@ -17,9 +17,8 @@ public class LoadRepoBo {
 	public void loadRepo(ItemsRepository itemsRepository) {
 		List<FinanceDto> financesDto = itemsRepository.loadItems();
 //		financesDto.stream().forEach(f->System.out.println(f));
-		FinanceDto financeDto = financesDto.get(0);
-		Finance f = DtoUtils.map(financeDto, Finance.class);
-		financeService.save(f);
+		List<Finance> fs = DtoUtils.mapList(financesDto, Finance.class);
+		financeService.save(fs);
 	}
 
 }

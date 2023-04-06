@@ -1,5 +1,7 @@
 package com.personal.data.upload.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,5 +17,9 @@ public class FinanceService {
 	
 	public Finance save(Finance finance) {
 		return this.financeRepository.save(finance);
+	}
+	
+	public void save(List<Finance> finances) {
+		this.financeRepository.saveAll(finances);
 	}
 }
