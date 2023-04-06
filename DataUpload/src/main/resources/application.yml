@@ -16,7 +16,7 @@ dev:
 qa:
   pathTemplates: /respaldos/app-resources/Volumetria/QAtemplates/
   hibernate:
-    dialect: org.hibernate.dialect.Oracle10gDialect
+    dialect: org.hibernate.dialect.Oracle12cDialect
     connection:
       release_mode: on_close
     show_sql: false
@@ -27,7 +27,7 @@ qa:
 prod:
   pathTemplates: /respaldos/app-resources/Volumetria/PRODtemplates/
   hibernate:
-    dialect: org.hibernate.dialect.Oracle10gDialect
+    dialect: org.hibernate.dialect.Oracle12cDialect
     connection:
       release_mode: on_close
     show_sql: false

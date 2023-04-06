@@ -19,8 +19,8 @@ public class Finance extends Auditable<String> implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@SequenceGenerator(name="FINANCES_ID_GENERATOR", sequenceName="FINANCES_ID_SEQ", allocationSize = 1)
-	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="FINANCES_ID_GENERATOR")
+	@Column(updatable = false)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long id;
 
 	private BigDecimal cogs;
