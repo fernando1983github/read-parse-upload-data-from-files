@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Repository;
 
 import com.personal.data.upload.dto.FinanceDto;
+import com.personal.data.upload.util.DtoUtils;
 import com.poiji.bind.Poiji;
 import com.poiji.bind.mapping.PoijiLogCellFormat;
 import com.poiji.bind.mapping.PoijiLogCellFormat.InternalCellFormat;
@@ -133,34 +134,7 @@ public class ExcelRepository implements ItemsRepository {
 	private List<FinanceDto> convert(List<ItemExcel> itemsExcel) throws Exception {
 		List<FinanceDto> financeDto = new ArrayList<>();
 		for(ItemExcel itemExcel : itemsExcel) {
-			FinanceDto f = new FinanceDto();
-			f.setSegment(itemExcel.getSegment());
-			f.setCountry(itemExcel.getCountry());
-			f.setProduct(itemExcel.getProduct());
-			f.setDiscountBand(itemExcel.getDiscountBand());
-			f.setUnitsSold(itemExcel.getUnitsSold());
-			f.setManufacturingPrice(itemExcel.getManufacturingPrice());
-			f.setSalePrice(itemExcel.getSalePrice());
-			f.setGrossSales(itemExcel.getGrossSales());
-			f.setDiscounts(itemExcel.getDiscounts());
-			f.setSales(itemExcel.getSales());
-			f.setCogs(itemExcel.getCogs());
-			f.setProfit(itemExcel.getProfit());
-			f.setDate(itemExcel.getDate());
-			f.setMonthNumber(itemExcel.getMonthNumber());
-			f.setMonthName(itemExcel.getMonthName());
-			f.setYear(itemExcel.getYear());
-			f.setStatus(itemExcel.isStatus());
-			f.setRecordDate(itemExcel.getRecordDate());
-			/*d.setSalesOrganization(itemExcel.getCountry().equals("Mexico") ? "MX01" : "CR01");
-			d.setOpLeader(itemExcel.getOpportunityLeader());
-			d.setPercent(itemExcel.getPercent());
-			System.out.println("Closed date:"+itemExcel.getCloseDate());
-			SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yy");
-			String dateInString = itemExcel.getCloseDate();
-			Date date = sdf.parse(dateInString);
-			d.setCloseDate(date);*/
-			
+			FinanceDto f = DtoUtils.map(itemExcel, FinanceDto.class);
 			financeDto.add(f);
 		}
 		return financeDto;
