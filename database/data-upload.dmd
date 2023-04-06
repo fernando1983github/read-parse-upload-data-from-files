@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="data-upload" id="0486FFBF-5F33-1659-B683-BB96C877F7F6" version="3.5">
+<createdBy>SESA378870</createdBy>
+<createdTime>2023-04-05 23:56:40 UTC</createdTime>
+<ownerDesignName>data-upload</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0486FFBF-5F33-1659-B683-BB96C877F7F6</designId>
+</OSDM_Design>
