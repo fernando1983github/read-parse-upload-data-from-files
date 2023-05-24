@@ -63,7 +63,7 @@ public class ExcelRepository implements ItemsRepository {
 				numberFormat.putNumberFormat((short) 14, "dd/MM/yyyy");
 				numberFormat.putNumberFormat((short) 172, "dd/MM/yyyy HH:mm:ss");
 				
-				PoijiOptions options = PoijiOptionsBuilder.settings().poijiLogCellFormat(log).poijiNumberFormat(numberFormat).namedHeaderMandatory(true).build();
+				PoijiOptions options = PoijiOptionsBuilder.settings().addListDelimiter(";").poijiLogCellFormat(log).poijiNumberFormat(numberFormat).namedHeaderMandatory(true).build();
 				PoijiExcelType excelType = getExcelType();
 				if(excelType != null) {
 					List<ItemExcel> itemsExcel = Poiji.fromExcel(is, excelType, ItemExcel.class, options);
